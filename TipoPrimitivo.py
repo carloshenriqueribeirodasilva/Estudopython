@@ -1,0 +1,5 @@
+a = input('digite o seu nome: ')
+print('o tipo primitivo deste valor é', type(a))
+print('isto é um numero?', a.isnumeric())
+print('isto é um espaço', a.isspace())
+print('isto é alfabetico', a.isalpha())
