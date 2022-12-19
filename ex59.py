@@ -1,12 +1,12 @@
 n1 = int(input("primeiro valor: "))
 n2 = int(input('Segundo valor: '))
+print('''[ 1 ] somar
+[ 2 ] multiplicar
+[ 3 ] maior
+[ 4 ] novos numeros 
+[ 5 ] sair do programa''')
 opçao = 0
 while opçao != 5:
-    print('''    [ 1 ] somar
-    [ 2 ] multiplicar
-    [ 3 ] maior
-    [ 4 ] novos numeros 
-    [ 5 ] sair do programa''')
     opçao = int(input('Qual é a sua opção? '))
     if opçao == 1:
         print('{} + {} é {}'.format(n1, n2, (n1 + n2)))
