@@ -17,3 +17,5 @@ def fatorial(n, show=False):
     return f
 n = int(input('Digite um valor para saber seu fatorial: '))
 print(fatorial(n, show=True))
+
+
