@@ -1,5 +1,6 @@
 from random import randint # RANDINT SERVE PARA O COMPUTADOR SORTEAR UM NUMERO DENTRO DE UM ITEM
 from time import sleep # SERVE PARA TEMPORIZAR ALGO, NO CASO FOI UTILIZADO PARA ATRAZAR EM 1 SEGUNDO A PALAVRA JO KEN PO
+
 print('SUAS OPÇÕES:')
 print('''[ 0 ] PEDRA
 [ 1 ] PAPEL
@@ -14,32 +15,34 @@ sleep(1) # SLEEP ATRASA A PALAVRA EM 1 SEGUNGO
 print('PO')
 sleep(1) # SLEEP ATRASA A PALAVRA EM 1 SEGUNGO
 print('=-=' * 11)
-print('Computador jogou {}'.format(itens[computador]))
-print('O jogador jogou {}'.format(itens[jogador]))
+print(f'Computador jogou {itens[computador]}')
+print(f'O jogador jogou {itens[jogador]}')
 print('=-=' * 11)
 
 if computador == 0:
     if jogador == 0:
         print('EMPATOU')
     elif jogador == 1:
-        print('JOGADOR GANHOU')
+         print('JOGADOR GANHOU')
     elif jogador == 2:
-        print('COMPUTADOR GANHOU')
+         print('COMPUTADOR GANHOU')
 
 elif computador == 1:
     if jogador == 0:
-        print('COMPUTADOR GANHOU')
+         print('COMPUTADOR GANHOU')
     elif jogador == 1:
-        print('EMPATOU')
+            print('EMPATOU')
     elif jogador == 2:
-        print('JOGADOR GANHOU')
+         print('JOGADOR GANHOU')
 
 elif computador == 2:
     if jogador == 0:
-        print('JOGADOR GANHOU')
+            print('JOGADOR GANHOU')
     elif jogador == 1:
-        print('COMPUTADOR GANHOU')
+            print('COMPUTADOR GANHOU')
     elif jogador == 2:
-        print('EMPATOU')
+            print('EMPATOU')
+
+
 
 

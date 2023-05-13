@@ -36,15 +36,15 @@ btn3.setStyleSheet('background-color:blue; color:white')
 btn3.clicked.connect(funcao3)
 
 label = QLabel('texto', janela)
-label.move(400,100)
+label.move(400, 100)
 label.setStyleSheet('font-size:30px')
 
 
 le = QLineEdit('', janela)
 le.setGeometry(500, 500, 150, 40)
 
-
 janela.show()
 
 
 app.exec()
+
